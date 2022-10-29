@@ -14,7 +14,7 @@ namespace IndexNumberBinder
         {
             this.startIndex = startIndex;
         }
-        public void Bind(Type model)
+        public void Bind(object model)
         {
             int i = this.startIndex;
             model.GetType().GetProperties().ToList().ForEach(x =>

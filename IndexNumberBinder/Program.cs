@@ -5,5 +5,5 @@ using System.Runtime.CompilerServices;
 Console.WriteLine("Hello, World!");
 AutoCsvIndexBinder binder = new AutoCsvIndexBinder(0);
 TestClass tstClass = new TestClass();
-binder.Bind(tstClass.GetType());
+binder.Bind(tstClass);
 Console.ReadLine();
