@@ -2,8 +2,8 @@
 using IndexNumberBinder;
 using System.Runtime.CompilerServices;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 AutoCsvIndexBinder binder = new AutoCsvIndexBinder(0);
-TestClass tstClass = new TestClass();
-binder.Bind(tstClass);
+binder.Bind(new TestClass());
+
 Console.ReadLine();
