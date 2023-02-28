@@ -67,7 +67,7 @@ namespace IndexNumberBinder
         }
 
 
-        public string getTypeString(Type type, int idx)
+        public string GetTypeString(Type type, int idx)
         {
             //valueData[{ i}]
             string result;
